@@ -7,10 +7,10 @@
 
 import Foundation
 
-// MARK: Nomal Queue - dequeue 연산 시간복잡도 O(N)
+// MARK: Normal Queue - dequeue 연산 시간복잡도가 O(N)이므로 느리다.
 
 struct NormalQueue<T> {
-    var queue: [T] = []
+    private var queue: [T] = []
     
     var isEmpty: Bool {
         return queue.isEmpty

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		52FEDAD02B338121009BBB74 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FEDACF2B338121009BBB74 /* main.swift */; };
+		52FEDAD72B338133009BBB74 /* NormalQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FEDAD62B338133009BBB74 /* NormalQueue.swift */; };
+		52FEDAD92B3389AC009BBB74 /* IndexQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FEDAD82B3389AC009BBB74 /* IndexQueue.swift */; };
+		52FEDADB2B338F00009BBB74 /* DoubleStackQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FEDADA2B338F00009BBB74 /* DoubleStackQueue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		52FEDACC2B338121009BBB74 /* Queue */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Queue; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FEDACF2B338121009BBB74 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		52FEDAD62B338133009BBB74 /* NormalQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalQueue.swift; sourceTree = "<group>"; };
+		52FEDAD82B3389AC009BBB74 /* IndexQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexQueue.swift; sourceTree = "<group>"; };
+		52FEDADA2B338F00009BBB74 /* DoubleStackQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleStackQueue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				52FEDACF2B338121009BBB74 /* main.swift */,
+				52FEDAD62B338133009BBB74 /* NormalQueue.swift */,
+				52FEDAD82B3389AC009BBB74 /* IndexQueue.swift */,
+				52FEDADA2B338F00009BBB74 /* DoubleStackQueue.swift */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
@@ -121,6 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				52FEDAD02B338121009BBB74 /* main.swift in Sources */,
+				52FEDAD92B3389AC009BBB74 /* IndexQueue.swift in Sources */,
+				52FEDAD72B338133009BBB74 /* NormalQueue.swift in Sources */,
+				52FEDADB2B338F00009BBB74 /* DoubleStackQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
